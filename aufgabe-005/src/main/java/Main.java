@@ -20,27 +20,5 @@ public class Main {
         // Hallo (0) und Hallo (2) sind gleich
         // Hello (1) und Hallo (2) sind ungleich
 
-        String[] daten = new String[3];
-        daten[0] = "Hallo";
-        daten[1] = "Hello";
-        daten[2] = "Hallo";
-
-        if (daten[0].equals(daten[1])) {
-            System.out.println(daten[0] + " (0) und " + daten[1] + " (1) sind gleich");
-        } else {
-            System.out.println(daten[0] + " (0) und " + daten[1] + " (1) sind ungleich");
-        }
-
-        if (daten[0].equals(daten[2])) {
-            System.out.println(daten[0] + " (0) und " + daten[2] + " (2) sind gleich");
-        } else {
-            System.out.println(daten[0] + " (0) und " + daten[2] + " (2) sind ungleich");
-        }
-
-        if (daten[1].equals(daten[2])) {
-            System.out.println(daten[1] + " (1) und " + daten[2] + " (2) sind gleich");
-        } else {
-            System.out.println(daten[1] + " (1) und " + daten[2] + " (2) sind ungleich");
-        }
     }
 }

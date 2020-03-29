@@ -23,25 +23,5 @@ public class Main {
         // Ausgabe:
         // 3 + 7 = 10
         // sub ist noch nicht implementiert
-
-        String[] daten = new String[3];
-        daten[0] = "add";
-        daten[1] = "3";
-        daten[2] = "7";
-
-        if (daten[0].equals("add")) {
-            int ergebnis = Integer.parseInt(daten[1]) + Integer.parseInt(daten[2]);
-            StringBuilder builder = new StringBuilder();
-            String ausgabe = builder.append(daten[1]).append(" + ").append(daten[2]).append(" = ").append(ergebnis).toString();
-            System.out.println(ausgabe);
-        }
-
-        daten[0] = "sub";
-        daten[1] = "17";
-        daten[2] = "7";
-
-        if (daten[0].equals("sub")) {
-            System.out.println("sub ist noch nicht implementiert");
-        }
     }
 }

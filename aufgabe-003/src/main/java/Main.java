@@ -8,16 +8,5 @@ public class Main {
         //
         // Ausgabe:
         // 1 2 3 4 5
-
-        int[] zahlen = new int[5];
-        zahlen[0] = 1;
-        zahlen[1] = 2;
-        zahlen[2] = 3;
-        zahlen[3] = 4;
-        zahlen[4] = 5;
-
-        for (int i = 0; i < zahlen.length; i++) {
-            System.out.print(zahlen[i] + " ");
-        }
     }
 }
