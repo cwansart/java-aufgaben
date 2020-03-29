@@ -36,7 +36,7 @@ public class MainTest {
         PrintStream out = Mockito.mock(PrintStream.class);
         System.setOut(out);
 
-        Main.main(new String[]{"mul", "3", "3"});
+        Main.main(new String[]{"mul", "3", "4"});
 
         Mockito.verify(out).println("3 * 4 = 12");
     }
