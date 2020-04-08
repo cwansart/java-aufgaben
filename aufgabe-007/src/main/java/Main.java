@@ -21,42 +21,6 @@ public class Main {
         // div ist noch nicht implementiert
         // mul ist noch nicht implementiert
         // foo ist noch nicht implementiert
-
-        String[] daten = new String[1];
-
-        daten[0] = "add";
-        if (daten[0].equals("add")) {
-            System.out.println(daten[0] + " ist implementiert");
-        } else {
-            System.out.println(daten[0] + " ist noch nicht implementiert");
-        }
-
-        daten[0] = "sub";
-        if (daten[0].equals("add")) {
-            System.out.println(daten[0] + " ist implementiert");
-        } else {
-            System.out.println(daten[0] + " ist noch nicht implementiert");
-        }
-
-        daten[0] = "div";
-        if (daten[0].equals("add")) {
-            System.out.println(daten[0] + " ist implementiert");
-        } else {
-            System.out.println(daten[0] + " ist noch nicht implementiert");
-        }
-
-        daten[0] = "mul";
-        if (daten[0].equals("add")) {
-            System.out.println(daten[0] + " ist implementiert");
-        } else {
-            System.out.println(daten[0] + " ist noch nicht implementiert");
-        }
-
-        daten[0] = "foo";
-        if (daten[0].equals("add")) {
-            System.out.println(daten[0] + " ist implementiert");
-        } else {
-            System.out.println(daten[0] + " ist noch nicht implementiert");
-        }
+        
     }
 }
